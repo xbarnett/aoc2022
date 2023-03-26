@@ -1,0 +1,4 @@
+solve.cpp: In function ‘int main()’:
+solve.cpp:25:33: error: ‘std::unordered_map<std::__cxx11::basic_string<char>, std::tuple<int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::mapped_type’ {aka ‘class std::tuple<int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >’} has no member named ‘second’
+   25 |     if (get<0>(data[strings[x]].second) > 0) {
+      |                                 ^~~~~~
